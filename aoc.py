@@ -63,7 +63,7 @@ if __name__=="__main__":
     st.video(video_bytes)
 
     st.write(" * ## Echantillon R20 ")
-    st.write("* Liquide visquex")
+    st.write("* Liquide visquex, résine acide")
     R20=Image.open("R20.jpg")
     st.image(R20, width=700)
     
@@ -83,7 +83,7 @@ if __name__=="__main__":
     st.write("* Echantillon visqueux, la partie supéreiure de l'échantillon  a durci. En bas liquide non acide")
     
     st.write(" * ## Déchet scrubber G19, il y a 1 GRV ")
-    st.write("* Résine liquide visqueuse, PH acide = le PH vire au rouge quelques instants aprés.")
+    st.write("* Résine liquide visqueuse, PH acide : le PH vire au rouge quelques instants aprés.")
 
     st.write(" * ## E 252 polué, il y a 4 GRV ")
     st.write("* Résine liquide un peu visqueuse")
