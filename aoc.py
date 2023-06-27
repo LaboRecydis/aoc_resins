@@ -61,3 +61,11 @@ if __name__=="__main__":
     video_file = open('R20_video.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
+
+    st.write(" * ## Eau glycolée ")
+    st.write("* Liquide de PH = 7, il y a  1 GRV 1000L (ARF)")
+
+    st.write(" * ## Eaux poluées ")
+    st.write("* eaux souillées de résine (odeur de résine) , PH = 7, il y a 9 GRV 1000L.")
+    eau_poluee=Image.open("eau_poluee.jpg")
+    st.image(eau_poluee, width=700)
