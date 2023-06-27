@@ -33,7 +33,7 @@ if __name__=="__main__":
     st.sidebar.image(img1, width=250)
     st.sidebar.image(img2, width=250)
 
-     st.write(" * ## cuve N°1")
+    st.write(" * ## cuve N°1")
     st.write("* Liquide acide PH<1")
     cuve1=Image.open("cuve1.jpg")
     st.image(cuve1, width=700)
