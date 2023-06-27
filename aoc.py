@@ -44,6 +44,12 @@ if __name__=="__main__":
     cuve1=Image.open("cuve2.jpg")
     st.image(cuve1, width=700)
 
+    st.write(" * ## Echantillon R15 ")
+    st.write("* Résine très visqueuse")
+    cuve1=Image.open("R15.jpg")
+    st.image(R15, width=700)
     
-
+    video_file = open('R15_video.mp4', 'rb')
+    video_bytes = video_file.read()
+    st.video(video_bytes)
    
