@@ -53,7 +53,7 @@ if __name__=="__main__":
     video_bytes = video_file.read()
     st.video(video_bytes)
 
-st.write(" * ## Echantillon R20 ")
+    st.write(" * ## Echantillon R20 ")
     st.write("* Résine très visqueuse")
     R20=Image.open("R20.jpg")
     st.image(R15, width=700)
