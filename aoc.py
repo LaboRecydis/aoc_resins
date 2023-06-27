@@ -86,7 +86,7 @@ if __name__=="__main__":
     st.write("* Résine liquide visqueuse, PH acide : le PH vire au rouge quelques instants aprés.")
 
     st.write(" * ## E 252 polué, il y a 4 GRV ")
-    st.write("* Résine liquide un peu visqueuse")
+    st.write("* Résine liquide un peu visqueuse non acide")
     st.write("* GRV N°1 : l'échantillon en majorité liquide mais avec une petite partie solide")
     st.write("* GRV N°2 : l'échantillon a durci en majorité")
     st.write("* GRV N°3 et 4 : résine liquide visqueuse")
