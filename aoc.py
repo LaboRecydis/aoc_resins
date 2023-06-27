@@ -49,6 +49,10 @@ if __name__=="__main__":
     R15=Image.open("R15.jpg")
     st.image(R15, width=700)
 
+    video_file = open('R15_video.mp4', 'rb')
+    video_bytes = video_file.read()
+    st.video(video_bytes)
+
     st.write(" * ## Echantillon R16 ")
     st.write("* L'échantillon est devenu dur")
     R15=Image.open("R16.jpg")
