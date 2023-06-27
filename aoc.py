@@ -34,9 +34,11 @@ if __name__=="__main__":
     st.sidebar.image(img2, width=250)
 
     
-    st.write(" * ## cuve N°1")
-    st.write("* liquide acide PH<1")
-    cuve1=Image.open("cuve1.jpg")
+    st.write(" * ## cuve N°2")
+    st.write("* Mélange acide + solvant")
+    cuve1=Image.open("cuve2.jpg")
     st.image(cuve1, width=700)
+
+    
 
    
