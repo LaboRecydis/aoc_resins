@@ -36,6 +36,7 @@ if __name__=="__main__":
     
     st.write(" * ## cuve N°1")
     st.write("* liquide acide PH<1")
+    cuve1=Image.open("cuve1.jpg")
     st.image(cuve1, width=700)
 
    
